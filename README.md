@@ -1,5 +1,12 @@
+
+
 # Lung Segmentation (2D)
 Repository features [UNet](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) inspired architecture used for segmenting lungs on chest X-Ray images.
+
+
+# 修改自 https://github.com/imlab-uiip/lung-segmentation-2d
+模型迁移至自己的数据集，图片放在./testImage路径下，运行test.py，生成mask图将保存在./resultImage路径下
+构建自己数据集训练，重写generator.py
 
 ## Demo
 See the application of the model in [Demo](https://github.com/imlab-uiip/lung-segmentation-2d/tree/master/Demo) folder.
